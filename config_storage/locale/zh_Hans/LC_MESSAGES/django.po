@@ -18,6 +18,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-# msgctxt "Context"
-# msgid "text"
-# msgstr "locale"
+msgctxt "App"
+msgid "config_storage"
+msgstr "系统配置"
+
+msgctxt "Model"
+msgid "Configuration"
+msgstr "配置项"
+
+msgctxt "Model"
+msgid "Configurations"
+msgstr "配置项"

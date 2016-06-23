@@ -1,11 +1,12 @@
 from distutils.core import setup
 from setuptools import find_packages
 
-app_id = 'app_template'
-app_name = 'prodm-django-template'
+app_id = 'config_storage'
+app_name = 'prodm-django-configuration'
 app_description = "Python & Django utils."
 install_requires = [
     'django',
+    'django-jsonfield',
 ]
 
 VERSION = __import__(app_id).__version__
