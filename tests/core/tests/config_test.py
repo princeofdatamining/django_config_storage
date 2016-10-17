@@ -1,17 +1,17 @@
 from django.test import TestCase
 
 from core import models
-from config_storage.models import Storages
+from config_storage.models import Storage
 
 class ConfigTest(TestCase):
 
     def setUp(self):
-        Storages.all().delete()
+        Storage.objects.all().delete()
         self.conf = models.RootSetting()
 
     def test(self):
         # not set
-        self.assertEqual(None, self.conf.rmb_to_coin)
+        self.assertEqual(0, self.conf.rmb_to_coin)
         # test set
         self.conf.rmb_to_coin = v = 100
         self.conf.save()

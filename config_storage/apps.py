@@ -1,6 +1,6 @@
 from django.apps import AppConfig, apps
 
-from . import constant
+from config_storage import constant
 
 class QAppConfig(AppConfig):
 
@@ -8,5 +8,4 @@ class QAppConfig(AppConfig):
     verbose_name = constant.APP_VERBOSE_NAME
 
     def ready(self):
-        from .models import configurations
-        configurations.load(apps)
+        pass

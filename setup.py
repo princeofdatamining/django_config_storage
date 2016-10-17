@@ -2,10 +2,9 @@ from distutils.core import setup
 from setuptools import find_packages
 
 app_id = 'config_storage'
-app_name = 'prodm-django-configuration'
+app_name = 'django_config_storage'
 app_description = "Python & Django utils."
 install_requires = [
-    'django',
     'django-jsonfield',
 ]
 
@@ -29,7 +28,7 @@ setup(
     author_email="princeofdatamining@gmail.com",
     license='BSD License',
     platforms=['OS Independent'],
-    url="https://bitbucket.org/princeofdatamining/"+app_name,
+    url="https://github.com/princeofdatamining/"+app_name,
     packages=find_packages(exclude=["tests"]),
     include_package_data=True,
     install_requires=install_requires,

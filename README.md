@@ -1,14 +1,14 @@
-## django-config-storage
+## django_config_storage
 
-[![Build Status](https://travis-ci.org/princeofdatamining/django-config-storage.png?branch=master)](https://travis-ci.org/princeofdatamining/django-config-storage)
+[![Build Status](https://travis-ci.org/princeofdatamining/django_config_storage.png?branch=master)](https://travis-ci.org/princeofdatamining/django_config_storage)
 
-`django-config-storage` is a Django appliation and library:  configuration for each applications.
+`django_config_storage` is a Django appliation and library:  configuration for each applications.
 
 ## Setup
 
 Install by downloading the source and running:
 
-> pip install https://bitbucket.org/princeofdatamining/prodm-django-configuration/get/master.zip
+> pip install git+https://github.com/princeofdatamining/django_config_storage
 
 and then add it to your installed apps:
 
