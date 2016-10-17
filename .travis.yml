@@ -8,6 +8,7 @@ env:
   - DJANGO="https://github.com/django/django/archive/master.tar.gz"
 install:
   - pip install -q $DJANGO
+  - pip install -q django-jsonfield
 script:
   - python -Wall tests/manage.py test core --settings=
 matrix:
